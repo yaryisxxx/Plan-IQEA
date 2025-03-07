@@ -22,28 +22,28 @@ export class AppMenu {
         this.model = [
             {
                 label: 'Home',
-                items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', routerLink: ['/'] }]
+                items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', routerLink: ['/home'] }]
             },
             {
                 label: 'Escuela',
                 items: [
-                    { label: 'Grupos', icon: 'pi pi-fw pi-id-card', routerLink: [''] },
-                    { label: 'Evaluacion', icon: 'pi pi-fw pi-id-card', routerLink: [''] }                    
+                    { label: 'Grupos', icon: 'pi pi-fw pi-users', routerLink: ['uikit/materias'] },
+                    { label: 'Evaluacion', icon: 'pi pi-fw pi-comments', routerLink: ['uikit/'] }                    
                 ]
             },
             {
                 label: 'Personal',
                 icon: 'pi pi-fw pi-briefcase',
-                routerLink: ['/pages'],
+                routerLink: ['/'],
                 items: [
                     {
                         label: 'Kardex',
-                        icon: 'pi pi-fw pi-globe',
+                        icon: 'pi pi-fw pi-map',
                         routerLink: ['/']
                     },
                     {
                         label: 'Horario',
-                        icon: 'pi pi-fw pi-user',
+                        icon: 'pi pi-fw pi-file',
                         routerLink: ['/']
                     },
                    
@@ -54,12 +54,12 @@ export class AppMenu {
                 items: [
                     {
                         label: 'Creador',
-                        icon: 'pi pi-fw pi-bookmark',
+                        icon: 'pi pi-fw pi-file-edit',
                         routerLink: ['/']
                     },
                     {
                         label: 'Subir',
-                        icon: 'pi pi-fw pi-bookmark',
+                        icon: 'pi pi-fw pi-cloud-upload',
                         routerLink: ['/']
                     }
                 ]

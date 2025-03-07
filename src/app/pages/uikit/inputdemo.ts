@@ -29,9 +29,9 @@ import { ToggleButtonModule } from 'primeng/togglebutton';
 import { CountryService } from '../service/country.service';
 import { NodeService } from '../service/node.service';
 import { TreeNode } from 'primeng/api';
-import { Country } from '../service/customer.service';
 
-@Component({
+
+/*@Component({
     selector: 'app-input-demo',
     standalone: true,
     imports: [
@@ -63,7 +63,7 @@ import { Country } from '../service/customer.service';
         InputGroupAddonModule,
         TextareaModule
     ],
-    template: ` <p-fluid class="flex flex-col md:flex-row gap-8">
+    /*template: ` <p-fluid class="flex flex-col md:flex-row gap-8">
             <div class="md:w-1/2">
                 <div class="card flex flex-col gap-4">
                     <div class="font-semibold text-xl">InputText</div>
@@ -282,20 +282,7 @@ export class InputDemo implements OnInit {
 
     dropdownValue: any = null;
 
-    multiselectCountries: Country[] = [
-        { name: 'Australia', code: 'AU' },
-        { name: 'Brazil', code: 'BR' },
-        { name: 'China', code: 'CN' },
-        { name: 'Egypt', code: 'EG' },
-        { name: 'France', code: 'FR' },
-        { name: 'Germany', code: 'DE' },
-        { name: 'India', code: 'IN' },
-        { name: 'Japan', code: 'JP' },
-        { name: 'Spain', code: 'ES' },
-        { name: 'United States', code: 'US' }
-    ];
-
-    multiselectSelectedCountries!: Country[];
+   
 
     toggleValue: boolean = false;
 
@@ -336,4 +323,4 @@ export class InputDemo implements OnInit {
 
         this.autoFilteredValue = filtered;
     }
-}
+}*/
