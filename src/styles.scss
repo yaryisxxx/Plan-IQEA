@@ -3,3 +3,66 @@
 @use './assets/layout/layout.scss';
 @use 'primeicons/primeicons.css';
 @use './assets/demo/demo.scss';
+/* styles.scss o common.scss */
+
+.p-button.p-button-azul {
+    background-color: #2196f3 !important; // Azul
+    border-color: #2196f3 !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+.p-button.p-button-azul:hover,
+.p-button.p-button-azul:focus,
+.p-button.p-button-azul:focus-visible {
+    background-color: #1976d2 !important; // Azul más oscuro
+    border-color: #1976d2 !important;
+    color: white !important;
+    box-shadow: none !important; // Quita el anillo verde
+}
+  
+input:focus,
+textarea:focus,
+.p-inputtext:focus,
+.p-dropdown .p-dropdown-label:focus {
+    border-color: #1782ec !important; /* azul primario */
+    box-shadow: 0 0 0 0.2rem rgba(23, 130, 236, 0.3);
+}
+
+.p-inputtext:focus,
+.p-password-input:focus {
+    border-color: #1782ec !important;
+    box-shadow: 0 0 0 0.2rem rgba(23, 130, 236, 0.3);
+}
+.p-dropdown:not(.p-disabled).p-focus {
+    border-color: #1782ec !important;
+    box-shadow: 0 0 0 0.2rem rgba(23, 130, 236, 0.3);
+}
+.stars-wrapper {
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 1;
+  color: #e5e7eb; /* gris claro para fondo */
+}
+
+.stars-bg {
+  color: #e5e7eb; /* fondo gris */
+}
+
+.stars-fg {
+  color: #facc15; /* amarillo */
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.active-menu-item {
+  background-color: #e0f0ff; // un fondo azul claro
+  color: #1976d2; // azul primario
+  font-weight: bold;
+  border-radius: 5px;
+}

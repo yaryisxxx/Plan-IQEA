@@ -42,6 +42,7 @@
         &.active-menuitem {
             > .layout-submenu-toggler {
                 transform: rotate(-180deg);
+                
             }
         }
     }
@@ -50,6 +51,7 @@
         > a {
             .layout-submenu-toggler {
                 transform: rotate(-180deg);
+                
             }
         }
     }
@@ -142,6 +144,12 @@
 .layout-submenu-enter-from,
 .layout-submenu-leave-to {
     max-height: 0;
+}
+.active-menu-item {
+  background-color: #e0f0ff; // un fondo azul claro
+  color: #1976d2; // azul primario
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 .layout-submenu-enter-to,

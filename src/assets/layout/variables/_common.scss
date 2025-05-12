@@ -1,6 +1,7 @@
 :root {
-    --primary-color: var(--p-primary-color);
-    --primary-contrast-color: var(--p-primary-contrast-color);
+    --primary-color: $color-red: #FF0000;;
+
+    --primary-contrast-color: #007bff;
     --text-color: var(--p-text-color);
     --text-color-secondary: var(--p-text-muted-color);
     --surface-border: var(--p-content-border-color);

@@ -13,22 +13,26 @@ import { AppMenuitem } from './app.menuitem';
             <li app-menuitem *ngIf="!item.separator" [item]="item" [index]="i" [root]="true"></li>
             <li *ngIf="item.separator" class="menu-separator"></li>
         </ng-container>
+        
     </ul> `
 })
 export class AppMenu {
     model: MenuItem[] = [];
 
     ngOnInit() {
+        
         this.model = [
             {
                 label: 'Home',
                 items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', routerLink: ['/home'] }]
             },
             {
-                label: 'Escuela',
+                label: 'Académico',
                 items: [
-                    { label: 'Grupos', icon: 'pi pi-fw pi-users', routerLink: ['uikit/materias'] },
-                    { label: 'Evaluacion', icon: 'pi pi-fw pi-comments', routerLink: ['uikit/'] }                    
+                    { label: 'Servicio social', icon: 'pi pi-fw pi-users', routerLink: ['/home/serv'] },
+                    { label: 'Evaluacion', icon: 'pi pi-fw pi-comments', routerLink: ['/home/eval'] },     
+                    { label: 'Materias disponibles', icon: 'pi pi-fw pi-book', routerLink: ['/home/mat'] },
+                    { label: 'Actividades complementarias', icon: 'pi pi-fw pi-flag-fill', routerLink: ['/home/act'] }                    
                 ]
             },
             {
@@ -39,13 +43,8 @@ export class AppMenu {
                     {
                         label: 'Kardex',
                         icon: 'pi pi-fw pi-map',
-                        routerLink: ['/']
-                    },
-                    {
-                        label: 'Horario',
-                        icon: 'pi pi-fw pi-file',
-                        routerLink: ['/']
-                    },
+                        routerLink: ['/home/kardex']
+                    }
                    
                 ]
             },
@@ -55,12 +54,7 @@ export class AppMenu {
                     {
                         label: 'Creador',
                         icon: 'pi pi-fw pi-file-edit',
-                        routerLink: ['/']
-                    },
-                    {
-                        label: 'Subir',
-                        icon: 'pi pi-fw pi-cloud-upload',
-                        routerLink: ['/']
+                        routerLink: ['/home']
                     }
                 ]
             },

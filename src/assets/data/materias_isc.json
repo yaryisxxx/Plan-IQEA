@@ -1,0 +1,201 @@
+{
+
+    "ACF0901": {
+      "nombre": "Cálculo Diferencial",
+      "creditos": 5
+    },
+    "ACC0906": {
+      "nombre": "Fundamentos de Investigación",
+      "creditos": 4
+    },
+    "AED1285": {
+      "nombre": "Fundamentos de Programación",
+      "creditos": 5
+    },
+    "AEF1041": {
+      "nombre": "Matemáticas Discretas",
+      "creditos": 5
+    },
+    "SCH1024": {
+      "nombre": "Taller de Administración",
+      "creditos": 4
+    },
+    "ACA0907": {
+      "nombre": "Taller de Ética",
+      "creditos": 4
+    },
+    "ACF0903": {
+      "nombre": "Álgebra Lineal",
+      "creditos": 5
+    },
+    "ACF0902": {
+      "nombre": "Cálculo Integral",
+      "creditos": 5
+    },
+    "AEC1008": {
+      "nombre": "Contabilidad Financiera",
+      "creditos": 4
+    },
+    "AEF1052": {
+      "nombre": "Probabilidad y Estadística",
+      "creditos": 5
+    },
+    "AED1286": {
+      "nombre": "Programación Orientada a Objetos",
+      "creditos": 5
+    },
+    "AEC1058": {
+      "nombre": "Química",
+      "creditos": 4
+    },
+    "ACF0904": {
+      "nombre": "Cálculo Vectorial",
+      "creditos": 5
+    },
+    "SCC1005": {
+      "nombre": "Cultura Empresarial",
+      "creditos": 4
+    },
+    "ACD0908": {
+      "nombre": "Desarrollo Sustentable",
+      "creditos": 5
+    },
+    "AED1026": {
+      "nombre": "Estructura de Datos",
+      "creditos": 5
+    },
+    "SCF1006": {
+      "nombre": "Física General",
+      "creditos": 5
+    },
+    "SCC1013": {
+      "nombre": "Investigación de Operaciones",
+      "creditos": 4
+    },
+    "ACF0905": {
+      "nombre": "Ecuaciones Diferenciales",
+      "creditos": 5
+    },
+    "AEF1031": {
+      "nombre": "Fundamentos de Bases de Datos",
+      "creditos": 5
+    },
+    "SCC1010": {
+      "nombre": "Graficación",
+      "creditos": 4
+    },
+    "SCC1017": {
+      "nombre": "Métodos Numéricos",
+      "creditos": 4
+    },
+    "SCD1018": {
+      "nombre": "Principios Eléctricos y Aplicaciones Digitales",
+      "creditos": 5
+    },
+    "SCD1022": {
+      "nombre": "Simulación",
+      "creditos": 5
+    },
+    "SCD1027": {
+      "nombre": "Tópicos Avanzados de Programación",
+      "creditos": 5
+    },
+    "SCD1003": {
+      "nombre": "Arquitectura de Computadoras",
+      "creditos": 5
+    },
+    "SCC1007": {
+      "nombre": "Fundamentos de Ingeniería de Software",
+      "creditos": 4
+    },
+    "AEC1034": {
+      "nombre": "Fundamentos de Telecomunicaciones",
+      "creditos": 4
+    },
+    "AEC1061": {
+      "nombre": "Sistemas Operativos",
+      "creditos": 4
+    },
+    "SCA1025": {
+      "nombre": "Taller de Bases de Datos",
+      "creditos": 4
+    },
+    "SCD1011": {
+      "nombre": "Ingeniería de Software",
+      "creditos": 5
+    },
+    "SCD1015": {
+      "nombre": "Lenguajes y Autómatas I",
+      "creditos": 5
+    },
+    "SCC1014": {
+      "nombre": "Lenguajes de Interfaz",
+      "creditos": 4
+    },
+    "SCD1021": {
+      "nombre": "Redes de Computadoras",
+      "creditos": 5
+    },
+    "SCA1026": {
+      "nombre": "Taller de Sistemas Operativos",
+      "creditos": 4
+    },
+    "SCD1004": {
+      "nombre": "Conmutación y Enrutamiento de Redes de Datos",
+      "creditos": 5
+    },
+    "CEG2201": {
+      "nombre": "Fundamentos de Cómputo en la Nube",
+      "creditos": 6
+    },
+    "SCG1009": {
+      "nombre": "Gestión de Proyectos de Software",
+      "creditos": 6
+    },
+    "SCD1016": {
+      "nombre": "Lenguajes y Autómatas II",
+      "creditos": 5
+    },
+    "CEG2202": {
+      "nombre": "Arquitectura de Soluciones en la Nube",
+      "creditos": 6
+    },
+    "SCA1002": {
+      "nombre": "Administración de Redes",
+      "creditos": 4
+    },
+    "AEB1055": {
+      "nombre": "Programación Web",
+      "creditos": 5
+    },
+    "SCC1019": {
+      "nombre": "Programación Lógica y Funcional",
+      "creditos": 4
+    },
+    "SCC1023": {
+      "nombre": "Sistemas Programables",
+      "creditos": 4
+    },
+    "ACA0909": {
+      "nombre": "Taller de Investigación I",
+      "creditos": 4
+    },
+    "SCB1001": {
+      "nombre": "Administración de Bases de Datos",
+      "creditos": 5
+    },
+    "CEM2204": {
+      "nombre": "Administración de Cómputo en la Nube",
+      "creditos": 6
+    },
+    "CEG2203": {
+      "nombre": "Herramientas de Software en la Nube",
+      "creditos": 7
+    },
+    "SCC1012": {
+      "nombre": "Inteligencia Artificial",
+      "creditos": 4
+    },
+    "ACA0910": {"nombre": "Taller de Investigación II", "creditos": 4}
+  }
+

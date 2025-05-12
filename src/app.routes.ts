@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
 import { AppLayout } from './app/layout/component/app.layout';
 import { Dashboard } from './app/pages/dashboard/dashboard';
-import { Documentation } from './app/pages/documentation/documentation';
 import { Landing } from './app/pages/landing/landing';
 import { Notfound } from './app/pages/notfound/notfound';
 import { Login } from './app/pages/auth/login';
+import { PerfilComponent } from './app/pages/perfil/perfil';
 
 export const appRoutes: Routes = [
     { path: '', component: Login },
@@ -13,9 +13,14 @@ export const appRoutes: Routes = [
         component: AppLayout,
         children: [
             { path: '', component: Dashboard },
-            { path: 'uikit', loadChildren: () => import('./app/pages/uikit/uikit.routes') },
-            { path: 'documentation', component: Documentation },
-            { path: 'pages', loadChildren: () => import('./app/pages/pages.routes') }
+            { path: 'perfil', loadComponent: () => import('./app/pages/perfil/perfil').then(m => m.PerfilComponent) }, // Ruta de perfil movida aquí
+            {  path: 'materias',  loadComponent: () => import('./app/pages/perfil/materias').then(m => m.MateriasComponent)},
+            { path: 'eval', loadComponent: () => import('./app/pages/evaluacion/evaluacion').then(m => m.EvaluacionDocenteComponent) },
+            {  path: 'kardex',  loadComponent: () => import('./app/pages/kardex/kardex').then(m => m.VerMateriasComponent)},
+            { path: 'mat', loadComponent: () => import('./app/pages/matdisponibles/matdisponibles').then(m => m.MateriasDisponiblesComponent) },
+            { path: 'act', loadComponent: () => import('./app/pages/actcomplementarias/actcomplementarias').then(m => m.ActividadesCulturalesComponent) },
+            { path: 'serv', loadComponent: () => import('./app/pages/servsocial/servsocial').then(m => m.ServicioSocialComponent) },
+            { path: 'pages', loadChildren: () => import('./app/pages/pages.routes') },
         ]
     },
     { path: 'landing', component: Landing },

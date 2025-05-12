@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "PlanIQEA": {
+        "planiqea": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -17,7 +17,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
-                        "outputPath": "dist/PlanIQEA",
+                        "outputPath": "dist/planiqea",
                         "index": "src/index.html",
                         "browser": "src/main.ts",
                         "polyfills": [
@@ -28,6 +28,10 @@
                         "assets": [
                             "src/favicon.ico",
                             "src/assets",  
+                            "src/assets/data/materias_isc.json",
+                            "src/assets/data/materias_iel.json",
+                            "src/assets/data/materias_iq.json",
+                            "src/assets/data/materias_iam.json",
                             {
                               "glob": "**/*",
                               "input": "public"
@@ -66,10 +70,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "buildTarget": "PlanIQEA:build:production"
+                            "buildTarget": "planiqea:build:production"
                         },
                         "development": {
-                            "buildTarget": "PlanIQEA:build:development"
+                            "buildTarget": "planiqea:build:development"
                         }
                     },
                     "defaultConfiguration": "development"

@@ -4,11 +4,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 export const environment = {
-    firebaseConfig:{
+  production: false,  
+  firebaseConfig:{
   apiKey: "AIzaSyAO8ExDPW-u2vt33aRLVX77OP-M_5f2hdA",
-  authDomain: "plan-iqea.firebaseapp.com",
-  projectId: "plan-iqea",
-  storageBucket: "plan-iqea.firebasestorage.app",
+  authDomain: "planiqea.firebaseapp.com",
+  projectId: "planiqea",
+  storageBucket: "planiqea.firebasestorage.app",
   messagingSenderId: "500713463197",
   appId: "1:500713463197:web:cea1f6b73bece425c6e374"
             }
